@@ -47,6 +47,18 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        String num[]=new String[10];
+        num[0]="one";
+        num[1]="two";
+        num[2]="three";
+        num[3]="four";
+        num[4]="five";
+        num[5]="six";
+        num[6]="seven";
+        num[7]="eight";
+        num[8]="nine";
+        num[9]="ten";
+
         // Find the View that shows the family category
         TextView family = (TextView) findViewById(R.id.family);
 
